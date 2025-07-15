@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <group android:scaleX="0.48"
+      android:scaleY="0.48"
+      android:translateX="6.24"
+      android:translateY="6.24">
+      
+      <!-- Book shadow -->
+      <path
+          android:fillColor="#E0E0E0"
+          android:pathData="M6.5,2.5C5.4,2.5 4.5,3.4 4.5,4.5V20.5C4.5,21.6 5.4,22.5 6.5,22.5H18.5C19.6,22.5 20.5,21.6 20.5,20.5V4.5C20.5,3.4 19.6,2.5 18.5,2.5H6.5Z" />
+      
+      <!-- Book cover -->
+      <path
+          android:fillColor="@android:color/white"
+          android:pathData="M6,2C4.9,2 4,2.9 4,4V20C4,21.1 4.9,22 6,22H18C19.1,22 20,21.1 20,20V4C20,2.9 19.1,2 18,2H6ZM6,4H18V20H6V4Z" />
+      
+      <!-- Book title area -->
+      <path
+          android:fillColor="@color/primary_color"
+          android:pathData="M6,4H18V8H6V4Z" />
+      
+      <!-- Book pages -->
+      <path
+          android:fillColor="#F5F5F5"
+          android:pathData="M7,9H17V10H7V9ZM7,11H16V12H7V11ZM7,13H15V14H7V13ZM7,15H17V16H7V15ZM7,17H14V18H7V17Z" />
+      
+      <!-- Book spine -->
+      <path
+          android:fillColor="@color/primary_dark_color"
+          android:pathData="M4,4V20C4,21.1 4.9,22 6,22V2C4.9,2 4,2.9 4,4Z" />
+      
+      <!-- Book title text -->
+      <path
+          android:fillColor="@android:color/white"
+          android:pathData="M8,5.5H16V6.5H8V5.5Z" />
+          
+  </group>
+</vector>

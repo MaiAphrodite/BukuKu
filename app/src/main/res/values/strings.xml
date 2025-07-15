@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BukuKu</string>
+    
+    <string-array name="status_options">
+        <item>Belum dibaca</item>
+        <item>Sudah dibaca</item>
+    </string-array>
+</resources>
